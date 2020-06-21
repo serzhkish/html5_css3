@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.padding_site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.page_header {
+    width: 100%;
+    background-color: #445161;
+    color: #fff;
+}
+
+.page_header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.page_header_wrp {
+    float: left;
+    width: 466px;
+}
+
+.page_header_title {
+    display: block;
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+.page_header_list {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style-type: none;
+}
+
+.page_header_list li{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.page_header_list li:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/checkmark.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
+
+.page_header_list li:last-child{
+    margin: 0;
+}
+
+.page_header_img {
+    display: block;
+    float:right;
+    width: 471px;
+    height: 216px;
+}
+
+.about_product {
+    width: 100%;
+    color: #445161;
+}
+
+.about_product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about_product_wrp {
+    float: left;
+    width: 679px;
+}
+
+.about_product_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 16px 0;
+    color: #445161;
+}
+
+.about_product_text_top, .about_product_text_bottom {
+    font-size: 16px;
+    margin: 0;
+}
+
+.about_product_text_top {
+    margin: 0 0 10px 0;
+}
+
+.about_product_img {
+    display: block;
+    float:right;
+    width: 430px;
+    height: 245px;
+}
+
+.dignity {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.dignity_header_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    color: #445161;
+}
+
+.dignity_list_left {
+    float:left;
+    width: 50%;
+}
+
+.dignity_list_right {
+    float:right;
+    width: 50%;
+}
+
+.dignity_list {
+    margin: 0;
+    padding: 0 0 0 25px;
+    list-style-type: none;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.dignity li{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.dignity li:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/plus.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
+
+.dignity li:last-child{
+    margin: 0;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots {
+    width: 100%;
+}
+
+.screenshots_header_title {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    color: #445161;
+}
+
+.screenshots_wrp {
+    margin: 0 0 30px 0;
+}
+
+.screenshots_wrp:last-child {
+    margin: 0;
+}
+
+.screenshots_wrp:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots_figure_left {
+    margin: 0px;
+    width: 50%;
+    float: left;
+}
+
+.screenshots_figure_right {
+    margin: 0px;
+    width: 50%;
+    float: right;
+}
+
+.screenshots_img {
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin: 0 15px 0 0;
+}
+
+.screenshots_fig_header {
+    display: block;
+    font-size: 24px;
+    color: #445161;
+    margin: 0 0 15px 0;
+}
+
+.screenshots_fig_text {
+    font-size: 16px;
+    color: #333333;
+    margin: 0px;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.reviews_title {
+    display: block;
+    width: 100%;
+    margin: 0 0 35px 0;
+    font-size: 30px;
+    color: #445161;
+    text-align: center;
+}
+
+.reviews_item {
+    width: 49%;
+    margin: 0 0 24px 0;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.reviews_item_photo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url('../img/person.jpg');
+    background-size: cover;
+}
+
+.reviews_item_text {
+    width: 80%;
+    padding: 16px 20px 16px 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: italic;
+    color: #333333;
+    margin: 0;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    position: relative;
+}
+
+.reviews_item_text:before {
+    content: "";
+    border: 13px solid transparent;
+    border-right: 13px solid #ebebeb;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -26px;
+}
+
+.reviews_item_author {
+    display: block;
+    margin: 15px 0 0 0;
+    color: #989898;
+    font-style: normal;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.price_title {
+    display: block;
+    width: 100%;
+    margin: 0 0 29px 0;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+}
+
+.price_item {
+    width: 30%;
+    min-height: 306px;
+    margin:  0 45px 0 0;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.price_item:last-child {
+    margin: 0;
+}
+
+.price_item_title {
+    font-size: 24px;
+}
+.price_item_title,
+.price_item_cost {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 17px 0 17px 0;
+    box-sizing: border-box;
+}
+
+.price_item_cost {
+    margin:  0 0 19px 0;
+    background-color: #fff;
+    color: #445162;
+    font-size: 40px;
+}
+
+.price_item_list {
+    margin:  0 0 19px 20px;
+    padding: 0 0 0 7px;
+    list-style-position: inside;
+    font-size: 14px;
+}
+
+.price_item_btn {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 10px;
+    width: 85%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #445161;
+    text-transform: uppercase;
+}
+
+.price_item_btn:hover {
+  background-color: #445161;
+  color: #fff;
+}
+
+.price_item_btn:active {
+  background-color: #fff;
+  color: #445161;
+}
